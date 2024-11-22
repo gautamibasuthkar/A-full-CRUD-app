@@ -1,0 +1,39 @@
+<a href = "https://books.free.beeceptor.com"> Beeceptor Link </a>; 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edit Book</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1> Edit Book</h1>
+        <form id="edit-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" required>
+
+            <label for="author">Author</label>
+            <input type="text" id="author" placeholder="Enter the author's name" required>
+
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" placeholder="Enter the genre" required>
+
+            <label for="pages">Number of pages</label>
+            <input type="number" id="pages" placeholder="Enter the number of pages" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" placeholder="Enter the number of pages" required></textarea>
+
+            <button type="submit">Update Book</button>
+
+        </form>
+
+        <div id="bottom-button">
+            <button onclick="location.href='index.html'">Go to homepage</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

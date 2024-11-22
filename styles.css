@@ -1,0 +1,116 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #EDD8E2; /* Light Pink Background */
+    color: #9B5372; /* Deep Plum Text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page Heading */
+h1 {
+    margin: 20px;
+    color: #BF7896; /* Mauve Heading */
+}
+
+/* Buttons */
+button {
+    background-color: #D895B1; /* Soft Rose Button Background */
+    color: #EDD8E2; /* Light Pink Text */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #BF7896; /* Darker Mauve Hover */
+    transform: scale(1.05); /* Slight Zoom */
+}
+
+#top-button, #bottom-button {
+    margin: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    max-width: 600px;
+}
+
+li {
+    background-color: #DFB8CC; /* Light Mauve Background */
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    background-color: #DFB8CC; /* Light Mauve Background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #9B5372; /* Deep Plum Labels */
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D895B1; /* Soft Rose Border */
+    border-radius: 5px;
+    font-size: 14px;
+    color: #9B5372; /* Deep Plum Text */
+    background-color: #EDD8E2; /* Light Pink Background */
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #BF7896; /* Darker Mauve Focus */
+    box-shadow: 0 0 5px rgba(191, 120, 150, 0.5); /* Soft Glow */
+}
+
+/* Button for Form */
+form button {
+    align-self: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+
+    li {
+        padding: 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
+
